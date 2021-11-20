@@ -1,34 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Latest Boilerplate
 
-## Getting Started
+### Easy-Clean Next.js boilerplate
 
-First, run the development server:
-
+## How To Use
+##### Clone Repo
 ```bash
-npm run dev
-# or
+git clone https://github.com/yusa-imit/next-latest-boilerplate.git
+yarn
+```
+##### Start Dev Server
+```bash
 yarn dev
 ```
+##### Start Build
+```bash
+yarn build
+```
+##### Start Production Server
+```bash
+yarn start
+```
+##### Start Linting
+```bash
+yarn lint
+```
+##### Start StoryBook
+```bash
+yarn storybook
+```
+##### Start Prettier
+```bash
+yarn prettier
+```
+##### Start Test
+```bash
+yarn test
+```
+## Contains
+### Nextjs
+Easy way to perform SSR with react.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[https://nextjs.org/](https://nextjs.org/)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Typescript
+TypeScript is JavaScript with syntax for types
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+[https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+### ESLint
+Javascript Linter
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[https://eslint.org/](https://eslint.org/)
+### StoryBook
+Storybook is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and documentation.
 
-## Learn More
+[https://storybook.js.org/](https://storybook.js.org/)
+### Jest
+Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
-To learn more about Next.js, take a look at the following resources:
+[https://jestjs.io/](https://jestjs.io/)
+### Axios
+Promise based HTTP client for the browser and node.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[https://github.com/axios/axios](https://github.com/axios/axios)
+### Recoil & Recoil-persist
+A state management library for React
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[https://recoiljs.org/](https://recoiljs.org/)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tiny module for recoil to store and sync state to Storage.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[https://github.com/polemius/recoil-persist](https://github.com/polemius/recoil-persist)
+### Prettier
+An opinionated code formatter
+
+[https://prettier.io/](https://prettier.io/)
+
+### TailwindCSS & DaisyUI
+Rapidly build modern websites without ever leaving your HTML.
+
+[https://tailwindcss.com/](https://tailwindcss.com/)
+
+
+Tailwind CSS Components
+
+[https://daisyui.com/](https://daisyui.com/)
+
+## License
+MIT
